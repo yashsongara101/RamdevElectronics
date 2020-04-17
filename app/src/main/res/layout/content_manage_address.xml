@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.profile.ManageAddress"
+    android:background="@color/screenbackgroundcolor"
+    tools:showIn="@layout/activity_manage_address">
+
+    <RelativeLayout
+        android:id="@+id/rlProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:elevation="1dp"
+        android:alpha="0.8"
+        android:clickable="true">
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAddressList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="76dp"
+        android:clipToPadding="false"/>
+
+    <Button
+        android:id="@+id/btAddNewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/orange_border_filled"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/add_location_white"
+        android:elevation="1dp"
+        android:fontFamily="@font/mont_regular"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Add New Address"
+        android:textAllCaps="false"
+        android:textColor="@color/buttonTextColor" />
+
+</RelativeLayout >

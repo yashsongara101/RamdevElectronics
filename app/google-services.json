@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "761958613346",
+    "firebase_url": "https://ramdev-electronics.firebaseio.com",
+    "project_id": "ramdev-electronics",
+    "storage_bucket": "ramdev-electronics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761958613346:android:91b4fb6714d7e2f35dac3b",
+        "android_client_info": {
+          "package_name": "com.believe.ramdevelectronics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761958613346-g36bgebmfb6trvml6aihhfohtk6hfa1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.believe.ramdevelectronics",
+            "certificate_hash": "7dfb546950d4a53d1bc1a4090ec9b6efd94d9ecd"
+          }
+        },
+        {
+          "client_id": "761958613346-fn8gejm4qi9mhh1nhibi7te5jhigr65g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWRAZ4llLScb-3ZNofL9HNumNEsYBRquk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761958613346-fn8gejm4qi9mhh1nhibi7te5jhigr65g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
